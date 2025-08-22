@@ -2,7 +2,8 @@
 name: Build Padavan
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
+  
   release:
     types: [published]
   push:
