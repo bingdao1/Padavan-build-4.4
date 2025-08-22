@@ -3,17 +3,17 @@ name: Build Padavan
 
 on: 
   workflow_dispatch:
-  release:
-    types: [published]
-  push:
-    tags:
-    - 'v*'
+  #release:
+  #  types: [published]
+  #push:
+  #  tags:
+  #  - 'v*'
   #  branches: 
   #    - master
 #  schedule:
 #    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+  #watch:
+  #  types: [started]
 
 jobs:
   build:
